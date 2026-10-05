@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katalog Bisnis Digital</title>
+<!-- Ini adalah Link untuk memanggil CSS Bootstrap dari internet -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/
+bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- KODE WEBSITE KITA AKAN DITULIS DI SINI -->
+<!-- Navbar Mulai -->
+<a href="login.php" class="btn btn-outline-light">
+    Login Admin
+</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">CV Fortuna Prima Daya</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-
+bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="#">Beranda</a></
+li>
+<li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Navbar Selesai -->
+
+<!-- Hero Section Mulai -->
+<div class="bg-light p-5 text-center">
+<div class="container py-5">
+<h1 class="display-4 fw-bold">Mitra Terpercaya untuk Solusi Tenaga Kerja Profesional</h1>
+<p class="lead text-muted">Optimalkan operasional bisnis Anda dengan penyediaan SDM unggul, terlatih dan siap kerja.</p>
+<a href="formulirpesanan.html" class="btn btn-primary btn-lg mt-3">Mulai Sekarang</a>
+</div>
+</div>
+<!-- Hero Section Selesai -->
+
+<!-- Bagian Produk Mulai -->
+<div class="container my-5" id="produk">
+<h2 class="text-center mb-5">Katalog Layanan Kami</h2>
+<div class="row"> <!-- Membuka Baris Grid -->
+<!-- Produk 1 (4 Kolom) -->
+<div class="col-md-4 mb-4">
+<div class="card h-100 shadow-sm">
+<img src="img/CS.jpg" class="card-img-top"
+
+alt="Produk 1">
+
+<div class="card-body">
+<h5 class="card-title">Cleaning Service Medis</h5>
+<p class="card-text">Layanan kebersihan profesional berstandar rumah sakit, terlatih dalam penanganan area steril higienitas, dan pengelolaan limbah medis..</p>
+
+<h6 class="text-primary fw-bold">UMR Kota Semarang</h6>
+<a href="formulirpesanan.php" class="btn btn-outline-primary w-100 mt-3">Hubungi Kami</a>
+
+</div>
+</div>
+</div>
+<!-- Tambahkan Produk 2 & 3 menggunakan format yang sama -->
+<div class="col-md-4 mb-4">
+<div class="card h-100 shadow-sm">
+<img src="img/Homecare.jpg" class="card-img-top"
+
+alt="Produk 1">
+
+<div class="card-body">
+<h5 class="card-title">Homecare Profesional</h5>
+<p class="card-text">Perawatan intensif bagi lansia dan pasien pemulihan pasca medis langsung di rumah dengan standar pengawasan kesehatan yang ketat</p>
+
+<h6 class="text-primary fw-bold">Paket Harian/ Bulanan</h6>
+<a href="formulirpesanan.php" class="btn btn-outline-primary w-100 mt-3">Hubungi Kami</a>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+<div class="card h-100 shadow-sm">
+<img src="img/Admin.jpg" class="card-img-top"
+
+alt="Produk 1">
+
+<div class="card-body">
+<h5 class="card-title">Digital Marketing & Branding</h5>
+<p class="card-text">Layanan optimasi media sosial, manajemen konten, dan strategi iklan digital untuk mendongkrak visibilitas dan omset bisnis anda. </p>
+
+<h6 class="text-primary fw-bold">Paket Bundling & Custom</h6>
+<a href="formulirpesanan.php" class="btn btn-outline-primary w-100 mt-3">Hubungi Kami</a>
+
+</div>
+</div>
+</div>
+<!-- Bagian Produk Selesai -->
+
+<!-- Script Bootstrap (diperlukan untuk elemen interaktif seperti menu HP)
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/
+bootstrap.bundle.min.js"></script>
+</body>
+</html>
