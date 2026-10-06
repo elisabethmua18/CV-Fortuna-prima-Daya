@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "db_outsourcing";
+$host = "db.wbdncwrqqxkytbzpdoai.supabase.co";
+$user = "postgres";
+$pass = "Elis5173:)?";
+$db   = "postgres";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
